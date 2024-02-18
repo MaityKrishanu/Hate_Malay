@@ -1,2 +1,6 @@
-# Hate_Malay
-A deep learning framework for the detection of Malay hate speech
+# A deep learning framework for the detection of Malay hate speech
+**Abstract:** 
+Although social media can efficiently disseminate information, they also facilitate the dissemination of online abuse, harassment, and hate speech. In 2019, United Nations Secretary-General introduced the United Nations Strategy and Plan of Action on Hate Speech in response to the alarming global trend of rising hate speech. It is crucial to prevent hate speech because it can have severe negative effects on both individuals and society. While much research has been conducted on detecting online hate speech in English, little research has been conducted in other languages, such as Malay. In this paper, we present the first benchmark dataset HateM for detecting hate speech in Malay, comprised of over 4,892 annotated tweets. We created a two-channel deep learning model, XLCaps, to effectively manage noisy Malay language posts. One channel's input is the XLNet language model followed by the capsule network, while the other channel's input is the FastText embedding with Bi-GRU. Our proposed model surpasses the baseline models in terms of overall accuracy and F1 measurement, which are 80.69% and 80.41%, respectively. This work contributes to the prevention of hate speech in Malay and can serve as a basis for future study in this area. The approach to effectively managing noisy Malay posts can be also applied to other languages.
+
+**Dataset Description:**
+We created a dataset called HateM in Malay, where we looked at each tweet and marked it as either hate or non-hate. The dataset has 3,002 tweets marked as non-hate and 1,890 tweets marked as hate
